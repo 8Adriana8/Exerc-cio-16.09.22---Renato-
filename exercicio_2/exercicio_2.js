@@ -1,9 +1,9 @@
-/** 2. Dado o tamanho do lado de um quadrado, calcular a área e o perímetro do mesmo. */
+/** 2. Dado o tamanho do lado de um quadrado, calcular a área e o perímetro do mesmo.*/
 
-let lado = Number(prompt("Inserir valor do lado de um quadrado"))
-let calculo = lado * 2
-alert("valor da area do quadrado " + calculo)
-
-calculo = 2 * (base + altura)
-
-alert("valor do perimetro do triangulo: " + calculo)
+ let ladoQuadrado = Number(prompt("Insira o valor de um lado do quadrado"))
+ let calculo = Math.pow(ladoQuadrado, 2)
+ alert("Área do quadrado: " + calculo)
+ 
+ calculo = ladoQuadrado * 4
+ 
+ alert("Perimetro do quadrado: " + calculo)
