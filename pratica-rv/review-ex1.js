@@ -5,6 +5,6 @@ const tamanhoDaBase = Number(prompt("Por favor adicione o tamanho da base. "))
 const alturaRetangulo = Number(prompt("Por favor adicione a altura da retângulo. ")) 
 
 alert ('O valor da área do retangulo é ' + tamanhoDaBase * alturaRetangulo)
-alert ('O valor do perímetro do retangulo é ' + 2 * (tamanhoDaBase * alturaRetangulo))
+alert ('O valor do perímetro do retangulo é ' +  (tamanhoDaBase + alturaRetangulo) * 2 ) 
 
 /**Duvida: Perguntar se o meu esta errado pq eu nao fiz uma variavél para calculo fora dos parênteses */
